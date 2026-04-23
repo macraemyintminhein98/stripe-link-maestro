@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stripe Link Maestro - Generate Payment Links</title>
+    <meta name="description" content="Generate branded Stripe Payment Links quickly for social media and emails.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡️</text></svg>">
+</head>
+<body class="bg-gradient-to-br from-indigo-500 to-purple-600 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white rounded-xl shadow-2xl p-8 max-w-lg w-full text-center">
+        <h1 class="text-4xl font-extrabold text-gray-900 mb-4">⚡️ Stripe Link Maestro</h1>
+        <p class="text-lg text-gray-700 mb-8">Instantly create shareable, branded Stripe Payment Links.</p>
+        <form action="#" method="POST" class="space-y-6">
+            <input type="text" placeholder="Item Name (e.g., 'E-book: Quick Start Guide')" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500">
+            <input type="number" placeholder="Price (e.g., 9.99)" step="0.01" min="0" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500">
+            <input type="number" placeholder="Quantity (default: 1)" min="1" value="1" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500">
+            <textarea placeholder="Item Description (optional)" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500"></textarea>
+            <input type="url" placeholder="Product Image URL (optional)" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-purple-500 focus:border-purple-500">
+            <button type="submit" class="w-full bg-purple-700 hover:bg-purple-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Generate Stripe Link</button>
+        </form>
+        <p class="mt-8 text-gray-500">More features coming soon, including custom branding!</p>
+    </div>
+</body>
+</html>
